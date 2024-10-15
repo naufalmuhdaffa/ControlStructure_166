@@ -1,7 +1,7 @@
 #1. program untuk evaluasi murid
 print("1. Program Evaluasi Murid")
 while True:
-    persen = int(input("Masukkin persentase murid: "))
+    persen = int(input("Masukkan persentase murid: "))
     if persen >= 90:
         print("Excellent performance")
         break
@@ -15,7 +15,7 @@ while True:
         print("average performance")
         break
     else:
-        print("B-baka!, masukkin input lagi! >//<")
+        print("persentase minimal 60, masukkan input lagi")
 print('\n')
 
 #2. Program ini akan menunjukkan angka terbesar dari angka yg diinputkan user
